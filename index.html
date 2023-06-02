@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/bootstrap.min.css">
+    <link rel="stylesheet" href="style/all.min.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+      <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container">
+          <img src="imgs/bgwhite.png" alt="" style="height: 92px; " srcset="">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main" aria-controls="main" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fa-solid fa-bars text-dark"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="main">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active p-2 p-lg-3" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link p-2 p-lg-3" href="#">Service</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link p-2 p-lg-3" href="#">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link p-2 p-lg-3" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link p-2 p-lg-3" href="#">Contact</a>
+              </li>
+            </ul>
+            <div class="search ps-3 pe-3 d-none d-lg-block">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <a class="btn  rounded-pill main-btn"> login</a>
+          </div>
+        </div>
+      </nav>
+      
+      <!-- <div class="landing d-flex justify-content-center align-items-center">
+        <div class="text-center text-light">
+            <h1>Trend Tourism & Travel</h1>
+            <p class="fw-bold fs-6 mb-4 text-black-75">Unlock the UAE Experience: Visa, Tickets, and Hotel Reservations at Your Fingertips!</p>
+            <a class="btn  rounded-pill main-btn"> See More</a>
+        </div>
+      </div> -->
+      <div id="myCarousel" class="carousel slide w-100 carousel-fade" style="height: calc(100vh - 92px);" data-bs-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"></li>
+          <li data-bs-target="#myCarousel" data-bs-slide-to="1"></li>
+          <li data-bs-target="#myCarousel" data-bs-slide-to="2"></li>
+        </ol>
+      
+        <!-- Slides -->
+        <div class="carousel-inner h-100">
+          <div  data-bs-interval="2300" class="carousel-item  active  w-100 h-100 ">
+            <div class="imgSlid"></div>
+            <!-- <img src="imgs/Highlights-Dubai-AinDubai_x1232.jpg" class="w-100 h-100" alt="Image 1"> -->
+            <div class="carousel-caption" style="    bottom: 45%; color: #19283f;">
+              <h1 style="font-size: 75px;font-weight: 550; text-shadow: 0px 2px 2px white;">Trend Tourism & Travel</h1>
+              <p style="font-weight: 600; margin-top: 8px; text-shadow: 0px 2px 2px white;">Unlock the UAE Experience: Visa, Tickets, and Hotel Reservations at Your Fingertips!</p>
+            </div>
+          </div>
+          <div  data-bs-interval="2300" class="carousel-item   w-100 h-100 ">
+            <div class="imgSlid2 w-100 h-100 "> </div>
+            <!-- <img src="imgs/Highlights-Dubai-Old_Dubai_1920x1080.jpg" class="w-100 h-100" alt="Image 2"> -->
+            <div class="carousel-caption" style="    bottom: 45%; color: #19283f;">
+              <h1 style="font-size: 75px;font-weight: 550; text-shadow: 0px 2px 2px white;">Trend Tourism & Travel</h1>
+              <p style="font-weight: 600; margin-top: 8px; text-shadow: 0px 2px 2px white;">Unlock the UAE Experience: Visa, Tickets, and Hotel Reservations at Your Fingertips!</p>
+            </div>
+          </div>
+          <div  data-bs-interval="2300" class="carousel-item  w-100 h-100 ">
+            <div class="imgSlid3 w-100 h-100  " > </div>
+            <!-- <img src="imgs/Highlights-Dubai-Palm_Jumeirah_x1232.jpg" class="w-100 h-100" alt="Image 3"> -->
+            <div class="carousel-caption" style="    bottom: 45%; color: #19283f;" >
+              <h1 style="font-size: 75px;font-weight: 550; text-shadow: 0px 2px 2px white;">Trend Tourism & Travel</h1>
+              <p style="font-weight: 600; margin-top: 8px; text-shadow: 0px 2px 2px white;">Unlock the UAE Experience: Visa, Tickets, and Hotel Reservations at Your Fingertips!</p>
+            </div>
+          </div>
+        </div>
+      
+        <!-- Controls -->
+        <a class="carousel-control-prev" href="#myCarousel" role="button" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#myCarousel" role="button" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </a>
+      </div>
+      
+
+        <!-- whats up  -->
+  <!-- <div class="whats wow bounceIn" data-wow-duration="1.2s" data-wow-iteration="2"><a target="_blank" href="https://wa.me/+971504470964?text=Hello"><i
+    class=" fab fa-whatsapp "></i></a>
+</div> -->
+<!-- end whats up  -->
+
+      <div class="features py-5 ">
+        <div class="container">
+            <div class="main-title d-flex align-items-center flex-column  position-relative">
+                <img src="imgs/title.png" alt="" class="pb-4" srcset="">
+                <h2 >
+                  We are Good at
+                </h2>
+                <p class="text-black-50 text-uppercase">
+                  SOME OF THESE STUFF UNDER                </p>
+                <!-- <div style="width: 14%; height: 1.3px;" class="line"> </div> -->
+            </div>
+            <div class="row pt-5">
+              <div class="col-md-6 col-lg-4 text-center">
+                <div class="feat">
+                  <div class="icon-holder position-relative">
+                    <i class="fa-solid position-absolute fa-1 number"></i>
+                    <i class="fa-solid fa-plane-departure position-absolute  iccon fa-4x"></i>
+                    <!-- <i class="fa-solid fa-plane-departure"></i> -->
+                    <!-- <i class="fa-solid position-absolute fa-pencil iccon fa-4x"></i> -->
+                  </div>
+                  <h4 class="my-3 text-uppercase">
+                    Tickets
+                  </h4>
+                  <p class="text-black-50 link-light">Your Gateway to Adventure: Hassle-Free Ticket Booking for Unforgettable Experiences!</p>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-4 text-center">
+                <div class="feat">
+                  <div class="icon-holder position-relative">
+                    <i class="fa-solid position-absolute fa-2 number"></i>
+                    <i class="fa-brands fa-cc-visa position-absolute iccon fa-4x"></i>
+                    <!-- <i class="fa-solid position-absolute fa-tv iccon fa-4x"></i> -->
+                  </div>
+                  <h4 class="my-3 text-uppercase">
+                    Visas
+                  </h4>
+                  <p class="text-black-50 link-light">Your Passport to UAE: Effortless Visa Solutions for Unforgettable Experiences!</p>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-4 text-center">
+                <div class="feat">
+                  <div class="icon-holder position-relative">
+                    <i class="fa-solid position-absolute fa-3 number"></i>
+                    <i class="fa-solid fa-hotel position-absolute iccon fa-4x"></i>
+                    <!-- <i class="fa-solid position-absolute fa-plug iccon fa-4x"></i> -->
+                  </div>
+                  <h4 class="my-3 text-uppercase">
+                    Hotels
+                  </h4>
+                  <p class="text-black-50 link-light">Seamless Hotel Reservations: Discover Your Perfect Stay with Ease!</p>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+
+      <div class="our-work py-5">
+        <div class="container">
+          <div class="main-title d-flex align-items-center flex-column  position-relative">
+            <img src="imgs/title.png" alt="" class="pb-4" srcset="">
+            <h2 >
+              About Distenation
+            </h2>
+            <p class="text-black-50 text-uppercase">
+              Discover Extraordinary Destinations: Embark on Unforgettable Journeys with Us!</p>
+            <!-- <div style="width: 14%; height: 1.3px;" class="line"> </div> -->
+          </div>
+            <div class="row py-5">
+              <div class="col-sm-6 col-md-4 col-lg-3 ">
+                <div class=" box box1 m-3 " data-work="Modern Dubai City" >
+                  <!-- <img src="imgs/2426353.jpg" alt="" class="img-fluid h-100"> -->
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-3 ">
+                <div class=" box box2 m-3 " data-work="Traditional Dubai City">
+                  <!-- <img src="imgs/3280779.jpg" alt="" class="img-fluid h-100"> -->
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-3 ">
+                <div class=" box box3 m-3 " data-work="Traditional Dubai City" >
+                  <!-- <img src="imgs/work-03.jpg" alt="" class="img-fluid h-100"> -->
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-3 ">
+                <div class=" box box4 m-3 " data-work="Modern Dubai City">
+                  <!-- <img src="imgs/work-04.jpg" alt="" class="img-fluid h-100"> -->
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-3 ">
+                <div class=" box box5 m-3 " data-work="Highlights of Dubai">
+                  <!-- <img src="imgs/work-05.jpg" alt="" class="img-fluid h-100"> -->
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-3 ">
+                <div class=" box box6 m-3 " data-work="Modern Dubai City">
+                  <!-- <img src="imgs/work-06.jpg" alt="" class="img-fluid h-100"> -->
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-3 ">
+                <div class=" box box7 m-3 " data-work="Modern Dubai City">
+                  <!-- <img src="imgs/work-07.jpg" alt="" class="img-fluid h-100"> -->
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-3 ">
+                <div class=" box box8 m-3 " data-work="Highlights of Dubai">
+                  <!-- <img src="imgs/work-08.jpg" alt="" class="img-fluid h-100"> -->
+                </div>
+              </div>
+            </div>
+
+        </div>
+      </div>
+
+      <div class="stuff py-5">
+        <div class="container">
+          <div class="main-title d-flex align-items-center flex-column  position-relative">
+            <img src="imgs/title.png" alt="" class="pb-4" srcset="">
+            <h2 >
+              About us
+            </h2>
+            <p class="text-black-50 text-uppercase">
+              PREPARE TO BE AMAZED</p>
+            <!-- <div style="width: 14%; height: 1.3px;" class="line"> </div> -->
+          </div>
+        </div>
+      </div>
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- font awesome to replace icon tag by svg icon -->
+    <script src="js/all.min.js"></script>
+</body>
+</html>
