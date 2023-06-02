@@ -95,6 +95,13 @@ nav{
 .carousel-indicators [data-bs-target]{
     background-color: #19283f;
 }
+
+.carousel-caption h1{
+    font-size: 75px;font-weight: 550; text-shadow: 0px 2px 2px white;
+}
+.carousel-caption p{
+    font-weight: 600; margin-top: 8px; text-shadow: 0px 2px 2px white;
+}
 /* end of landing section  */
 .link-light:focus, .link-light:hover {
     --bs-text-opacity: 1;
@@ -257,4 +264,13 @@ nav{
     color: #fff;
     padding-left: 6px;
     font-size: 14px;
+}
+
+@media all and (max-width:975px) {
+    .carousel-caption h1{
+        font-size: 30px;font-weight: 550; text-shadow: 0px 2px 2px white;
+    }
+    .carousel-caption p{
+        font-weight: 600; margin-top: 8px; text-shadow: 0px 2px 2px white;
+    }
 }
