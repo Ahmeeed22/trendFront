@@ -65,7 +65,7 @@ nav{
 }
 
 .imgSlid {
-    background-image: url(../imgs/slide2.jpg);
+    background-image: url(../imgs/s1.jpg);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -74,14 +74,14 @@ nav{
 }
 
 .imgSlid2 {
-    background-image: url(../imgs/slide3.jpg);
+    background-image: url(../imgs/slide2.jpg);
     background-position: center center;
     background-size: cover;
 
 }
 
 .imgSlid3 {
-    background-image: url(../imgs/slid1.jpg );
+    background-image: url(../imgs/s3.jpg );
     background-position: center center;
     background-size: cover;
 
