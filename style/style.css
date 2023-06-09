@@ -9,14 +9,17 @@ body{
     font-family: 'Roboto' , 'sans-serif';
 }
 .main-btn{
-    background-color: var(--red-color);
-    color: var(--yellow-color);
+    background-color: var(--green-color);
+    color: #fff;
     padding: .5rem 1rem;
     transition: all .4s;
+    opacity: .8;
 }
 .main-btn:hover{
-    background-color: var(--yellow-color);
-    color: var(--red-color);
+   transform: scale(1.07);
+   background-color: var(--green-color);
+   color: #fff;
+   opacity: 1;
 }
 /* html{
     font-size: 22px;
@@ -265,6 +268,105 @@ nav{
     padding-left: 6px;
     font-size: 14px;
 }
+
+
+.section-about {
+    padding: 80px 0;
+    /* background-color: #f7f7f7; */
+  }
+  
+  .about-image {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about-content {
+    margin-top: 40px;
+  }
+  .section-heading{
+    /* color: var(--green-color); */
+  }
+  .about-description {
+    font-size: 18px;
+    color: var(--green-color);
+    margin-bottom: 20px;
+  }
+  
+  .services {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+  }
+  
+  .service {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+  }
+  
+  .service:hover {
+    transform: translateY(-5px);
+  }
+  
+  .service  svg{
+    color: var(--green-color);
+    margin-bottom: 20px;
+    font-size: 30px;
+  }
+  
+  .service-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .service-description {
+    font-size: 16px;
+    color: #777;
+  }
+  
+.btn-primary {
+  background-color: #fd5f00;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #ff8000;
+}
+
+@media (max-width: 768px) {
+  .section-about {
+    text-align: center;
+  }
+  
+  .about-image {
+    margin-bottom: 40px;
+  }
+  
+  .col-lg-6 {
+    margin-bottom: 40px;
+  }
+  
+  .services {
+    flex-direction: column;
+  }
+  
+  .service {
+    margin-bottom: 20px;
+  }
+}
+
+  
 
 @media all and (max-width:975px) {
     .carousel-caption h1{
