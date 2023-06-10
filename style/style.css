@@ -8,6 +8,29 @@
 body{
     font-family: 'Roboto' , 'sans-serif';
 }
+
+.settings {
+    top: 45%;
+    background-color: #2b2424;
+    padding: 8px 8px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px; 
+    z-index: 999;
+}
+
+.settings a svg {
+    font-size: 24px;
+}
+.settings a svg {
+    color: var(--section-color);
+    transition: all 1s;
+}
+
+/* .navbar-light .navbar-nav :hover , */
+.settings a svg:hover {
+    color: var(--green-color);
+}
+
 .main-btn{
     background-color: var(--green-color);
     color: #fff;
@@ -88,6 +111,9 @@ nav{
     background-position: center center;
     background-size: cover;
 
+}
+.carousel-indicators{
+    list-style: none !important;
 }
 .carousel-indicators{
     bottom: 30px;
@@ -364,6 +390,14 @@ nav{
   .service {
     margin-bottom: 20px;
   }
+  .settings a svg {
+    font-size: 14px;
+}
+.settings a svg {
+    color: var(--section-color);
+    transition: all 1s;
+}
+
 }
 
   
